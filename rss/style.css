@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/rss/img/back.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+    border: 3px solid #2196f3;
+    background-color: #d0f8ff9e;
+    align-content:center ;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: #116db8;
+}
+header img{
+    width: 60px;
+}
+main{
+    font-family: 'Inter', sans-serif;
+   text-align: center;
+    vertical-align: middle;
+    background-color: #f0ffffb3;
+    padding: 50px 30px ;
+    border: 3px solid #2196f3;
+    font-weight: bold;
+}
+.main__title1{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: #55a1e0;
+}
+.btn{
+    background-color: #2196f3;
+    border: 3px solid #d0f8ff9e;
+    padding: 8px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.username{
+    border: 3px solid #2196f3;
+    padding: 8px;
+    border-radius: 5px;
+ 
+}
+.resultscreen {
+    display: none;
+}
+.quiz__counter{
+    color:lightslategray;
+}
+.questionscreen{
+    display: none;
+}

@@ -1,0 +1,42 @@
+!
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/rss/style.css">
+    <script src="/rss/script.js" async defer></script>
+</head>
+
+<body>
+    <section class="survey">
+        <header>
+            <h1 class="header__logotext">Migros</h1>
+            <figure class="logo"><img src="/rss/img/logo.png"></figure>
+        </header>
+        <main>
+            <section class="main__section__welcome">
+            <h2 class="main__title1">Danos tu opinión</h2>
+           
+                <p>En MIGROS estamos ansiosos por escuchar tu opinión!</p>
+                <h5>Encuesta de Satisfacción</h5>
+                <input class="username" id="username" type="text" value="Nombre de usuario">
+                <input class="btn" type="button" onclick="getUser()" value="COMENZAR ✓">
+            </section>
+            <div class="questionscreen">
+                <!--Insert Questions-->
+                <p class="quiz__counter"><span id="actualNumber">x</span>
+                    pregunta de <span class="numberOfQuestions">20</span></p>
+            </div>
+            <div id="resultscreen" class="resultscreen">
+                <h1>Gracias por tu tiempo!</h1>
+                <p>A continuación podrás ver una lista otros usuarios y sus respuestas:</p>
+            </main>
+    </section>
+</body>
+
+</html>
