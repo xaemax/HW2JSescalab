@@ -131,8 +131,10 @@ elNumberOfQuestions.forEach(function(elnumberofquestions) {
 })
 
 function seeFirstQuestion() {
-    let elWelcomeScr = document.getElementById("welcomescreen")
+    let elWelcomeScr = document.getElementById("main__section__welcome")
     // elWelcomeScr.style.display = 'none'
+    let userName = document.getElementById("username").value;
+    console.log(userName);
     elWelcomeScr.classList.add('hidden')
 
     
@@ -145,25 +147,3 @@ let elWelcomeBtn = document.getElementById("userbtn")
 elWelcomeBtn.addEventListener("click", seeFirstQuestion)
 
 
-/*let questionScreen = document.getElementById("questionscreen");
-let welcomeScreen = document.getElementById("main__section__welcome"); 
-*/
-
-/*
-function seeFirstQuestion() {
-  
-
-    let welcomeScr = document.getElementById("main__section__welcome");
-     
-    welcomeScr.style.display = 'none';
-     
-    questionScreen.style.display = "block"
-let userName = document.getElementById("username").value;   
-}
-
-let elWelcomeBtn = document.getElementById("userbtn")
-elWelcomeBtn.addEventListener("click", seeFirstQuestion)= ()=>{
-    let userName = document.getElementById("username").value;
-}
-
-*/
